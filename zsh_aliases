@@ -32,7 +32,7 @@ alias lv='nvim '
 alias v='vim'
 alias n='nvim'
 # OTHER:
-alias a='alias'
+alias a='acs'
 alias x='exit'
 alias c='clear'
 alias h='history'
