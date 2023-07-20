@@ -7,6 +7,8 @@ export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_STATE_HOME="$HOME/.local/state"
 export XDG_CACHE_HOME="$HOME/.cache"
 
+# Task-warrior config directory variables:
+export TASKRC="$XDG_CONFIG_HOME/task/taskrc"
 
 # Default BROWSERS:
 # GUI:

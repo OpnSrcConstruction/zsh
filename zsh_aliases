@@ -344,16 +344,6 @@ alias 18='youtube-dl -ciw -f 18 -o "%(title)s.%(ext)s"'
 alias yt='time youtube-dl'
 alias ytxpl='yt-dlp -f 480p -a D:\Documents\Notes\Lists\P-hub.list'
 alias ytx='yt-dlp -f 480p'
-# Manual_Plug-ins:
-#
-# alias-finder:
-source ~/Scripts/Zsh/alias-finder.plugin.zsh
-alias af='alias-finder -l'
-export ZSH_ALIAS_FINDER_AUTOMATIC=true
-# Usage:
-# $ alias-finder <command> == Check if <command> is aliased.
-# -l | --long will match complex/long commands.
-# -e | --exact Must match exactly.
 
 # jump-plugin(manual-bookmarking):
 # source ~/Scripts/Zsh/cheat.sh
@@ -393,3 +383,5 @@ source ~/Scripts/Zsh/bgnotify.plugin.zsh
 
 alias ~~='tp ./*~'
 # alias --='cd -'
+
+alias tf='thefuck'
